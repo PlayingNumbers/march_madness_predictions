@@ -9,7 +9,7 @@ import numpy as np
 
 @st.cache
 def load_data():
-    win_probs = pd.read_csv('dash_data3.csv')
+    win_probs = pd.read_csv('dash_data4.csv')
     return win_probs
 
 df = load_data()
